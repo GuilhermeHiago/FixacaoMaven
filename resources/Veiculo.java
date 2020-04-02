@@ -22,8 +22,8 @@ public class Veiculo{
         placa.setPais(pais);
     }
 
-    public String getPlaca(){
-        return placa.getCodigo();
+    public Placa getPlaca(){
+        return placa;
     }
 
     public String getCor(){
